@@ -11,7 +11,7 @@ export const BACKEND_URL =
   "https://centralagentmessages-ckbhdqcjg3e4cdfq.canadacentral-01.azurewebsites.net/api/chat";
 
 export const AGENT_NAME = "ITSM-Agent";
-export const AGENT_VERSION = "48";
+export const AGENT_VERSION = "49";
 
 // 50 minutos: margen sobre el vencimiento real de 60 minutos de Google.
 export const TOKEN_TTL_MS = 50 * 60 * 1000;
