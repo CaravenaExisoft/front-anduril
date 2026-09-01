@@ -5,7 +5,7 @@ export default function Sidebar({ isConnected, onConnect }) {
   return (
     <aside className="w-20 lg:w-72 hidden md:flex flex-col bg-white/5 border border-white/10 backdrop-blur-2xl rounded-[2rem] p-6 shadow-2xl">
       <div className="flex items-center gap-4 mb-10">
-        <div className="w-12 h-12 rounded-2xl overflow-hidden border border-cyan-400/30">
+        <div className="w-14 h-14 lg:w-20 lg:h-20 rounded-2xl overflow-hidden border border-cyan-400/30 flex-shrink-0">
           <AnduriHead className="w-full h-full" />
         </div>
         <div className="hidden lg:block">
