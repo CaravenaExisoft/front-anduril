@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Referencias de diseño y modelos descartados, no forman parte del app
+stitch_fluid_agent_interface/
+src/components/Meshy_AI_Andúril_Protocol_0901034032_texture.glb
