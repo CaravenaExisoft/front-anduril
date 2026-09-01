@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #080b12;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+/* Markdown de los mensajes del agente (react-markdown) */
+.prose-chat p {
+  margin: 0 0 0.5em;
+}
+.prose-chat p:last-child {
+  margin-bottom: 0;
+}
+.prose-chat ul,
+.prose-chat ol {
+  margin: 0 0 0.5em 1.1em;
+  padding: 0;
+}
+.prose-chat li {
+  margin-bottom: 0.15em;
+}
+.prose-chat li::marker {
+  color: #22d3ee;
+}
+.prose-chat strong {
+  font-weight: 700;
+}
+.prose-chat code {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+.prose-chat a {
+  color: #22d3ee;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
