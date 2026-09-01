@@ -1,12 +1,12 @@
 import { LogIn } from "lucide-react";
-import { AVATAR_URL } from "../config.js";
+import AnduriHead from "./AnduriHead.jsx";
 
 export default function Sidebar({ isConnected, onConnect }) {
   return (
     <aside className="w-20 lg:w-72 hidden md:flex flex-col bg-white/5 border border-white/10 backdrop-blur-2xl rounded-[2rem] p-6 shadow-2xl">
       <div className="flex items-center gap-4 mb-10">
         <div className="w-12 h-12 rounded-2xl overflow-hidden border border-cyan-400/30">
-          <img src={AVATAR_URL} className="w-full h-full object-cover object-top scale-125" alt="Andúril" />
+          <AnduriHead className="w-full h-full" />
         </div>
         <div className="hidden lg:block">
           <h1 className="font-bold text-white leading-none">Andúril</h1>
